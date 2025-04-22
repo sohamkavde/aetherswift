@@ -16,6 +16,7 @@ import Herocard_over from "../../assets/herocard_over.png";
 import Herocard from "../../assets/herocard.png";
 import bitmax from "../../assets/bitmax_icon.png";
 import Header from "./Header";
+import { Link } from "react-router-dom";
 
 export default function Herosection() {
   return (
@@ -62,7 +63,9 @@ export default function Herosection() {
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
                   <button className="relative bottom-1 w-full h-full ml-1 px-9 md:px-12 py-2 rounded-lg text-gray-300 font-philosopher font-bold text-sm md:text-2xl bg-gradient-to-r from-[#531a1a] to-[#990000f4] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-                    Buy Now
+                  <Link to="seed-sale " className='no-underline text-white hover:text-white'>
+          Buy Now        
+        </Link>
                   </button>
                 </div>
               </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Logo from "../../assets/logo.png";
 
 import { HiOutlineMenu, HiX } from "react-icons/hi";
+import { Link } from 'react-router-dom';
 function Header() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
@@ -15,7 +16,7 @@ function Header() {
 
       {/* Desktop Nav */}
       <div className="hidden md:flex space-x-7 text-md font-light cursor-pointer">
-        <a href="#Home" className="text-white hover:text-red-500">Home</a>
+        <Link to="/" className="text-white hover:text-red-500">Home</Link>
         <a href="#about-us" className="text-white hover:text-red-500">About Us</a>
         <a href="#Usecases" className="text-white hover:text-red-500">Usecases</a>
         <a href="#Toknomics" className="text-white hover:text-red-500">Toknomics</a>
@@ -33,7 +34,9 @@ function Header() {
       <div className="hidden md:block">
       <div className="bg-black border border-gray-300  rounded-md">
         <button className="relative bottom-1 w-full h-full ml-1  px-10 py-2 rounded-lg text-gray-200 font-philosopher font-semibold  text-sm md:text-2xl bg-gradient-to-r from-[#600000] to-[#990000] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-          Buy Now
+        <Link to="seed-sale " className='no-underline text-white hover:text-white'>
+          Buy Now        
+        </Link>
         </button>
       </div>
     </div>
@@ -51,7 +54,7 @@ function Header() {
         <HiX className="text-white text-3xl cursor-pointer" onClick={() => setSidebarOpen(false)} />
       </div>
       <ul className="flex flex-col space-y-6 text-white mt-10 px-6 text-lg font-light">
-        <li><a href="#Home" className="text-white hover:text-red-900" onClick={() => setSidebarOpen(false)}>Home</a></li>
+        <li><Link to="/" className="text-white hover:text-red-900" onClick={() => setSidebarOpen(false)}>Home</Link></li>
         <li><a href="#about-us" className="text-white hover:text-red-900" onClick={() => setSidebarOpen(false)}>About Us</a></li>
         <li><a href="#Usecases" className="text-white hover:text-red-900" onClick={() => setSidebarOpen(false)}>Usecases</a></li>
         <li><a href="#Toknomics" className="text-white hover:text-red-900" onClick={() => setSidebarOpen(false)}>Toknomics</a></li>
@@ -62,7 +65,9 @@ function Header() {
        <div className="">
       <div className="bg-black border border-gray-300  rounded-md">
         <button className="relative bottom-1 w-full h-full ml-1  px-10 py-2 rounded-lg text-gray-200 font-philosopher font-semibold  text-sm md:text-2xl bg-gradient-to-r from-[#600000] to-[#990000] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-          Buy Now
+        <Link to="seed-sale " className='no-underline text-white hover:text-white'>
+          Buy Now        
+        </Link>
         </button>
       </div>
       </div>

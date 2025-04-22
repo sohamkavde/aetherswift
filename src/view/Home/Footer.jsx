@@ -8,6 +8,7 @@ import {
   
   import Logo from "../../assets/logo.png";
   import footer_img from "../../assets/footer_img.png";
+import { Link } from "react-router-dom";
   
   const Footer = () => {
     return (
@@ -70,7 +71,9 @@ import {
                 <h3 className="text-red-700 underline font-semibold">Resources</h3>
                 <ul className="text-md">
                 <li className="cursor-pointer hover:underline">Whitepaper</li>
-                <li className="cursor-pointer hover:underline">Buy Now</li>
+                <li className="cursor-pointer hover:underline"> <Link to="seed-sale " className='font-normal text-white hover:text-white'>
+          Buy Now        
+        </Link></li>
                 <li className="cursor-pointer hover:underline">Privacy Policy</li>
                 <li className="cursor-pointer hover:underline">Terms & Conditions</li>
                 </ul>
