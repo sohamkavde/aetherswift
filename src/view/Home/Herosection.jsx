@@ -42,7 +42,7 @@ export default function Herosection() {
         ></div>
         <Header />
         {/* Hero Section */}
-        <div className="relative z-10 flex flex-col md:flex-row justify-between px-8 pt-16 pb-0 md:pt-10">
+        <div className="relative z-10 flex flex-col md:flex-row justify-between px-8 pt-4 pb-0 md:pt-10">
           <div className="max-w-xl relative z-2">
             <h1 className="text-4xl md:text-6xl font-semibold font-philosopher text-gray-400 leading-tight">
               Play the Future <span className="text-gray-300">with</span>{" "}
@@ -52,7 +52,7 @@ export default function Herosection() {
               Your Gateway to Decentralized{" "}
               <span className="text-red-800">Casino Gaming</span>!
             </p>
-            <p className="text-lg text-medium text-gray-200 mb-20">
+            <p className="text-lg text-medium text-gray-200 mb-10">
               Experience blockchain-powered casino games, earn rewards, stake
               tokens, and boost gameplay with{" "}
               <span className="text-red-800 font-semibold">AESH</span>
@@ -80,7 +80,7 @@ export default function Herosection() {
             </div>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 text-2xl text-gray-300 mt-10 ml-5">
+            <div className="flex space-x-4 text-2xl text-gray-300 mt-10 ml-5 mb-5">
               <FaFacebookF className="hover:text-red-500" />
               <FaYoutube className="hover:text-red-500" />
               <FaXTwitter className="hover:text-red-500" />
@@ -89,11 +89,11 @@ export default function Herosection() {
             </div>
           </div>
 
-          <div className="mt-10 md:mt-0 md:ml-10 relative z-10 md:w-[70%]">
+          <div className="mt-10 md:mt-0 md:ml-10 flex justify-center items-center relative z-10 md:w-[70%]">
             <img
               src={Herocard}
               alt="Cards and Dice"
-              className="w-full"
+              className="w-full md:w-[400px] md:h-[350px] object-contain"
               data-aos="zoom-in"
               data-aos-delay="50"
               data-aos-duration="1000"

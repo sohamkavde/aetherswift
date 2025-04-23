@@ -5,6 +5,10 @@ import React from "react";
  import  recievetoken from "../../assets/recievetoken.png";
  import  tokens from "../../assets/tokens.png";
  import buyAESH from "../../assets/buyAESH.png";
+
+
+
+
 const StepOneWalletSetup = () => {
   return (
     <div className="bg-black text-white py-2 px-6 md:px-2">
@@ -30,7 +34,7 @@ const StepOneWalletSetup = () => {
 
         {/* Right Side - Logos */}
         <div className="grid place-items-center">
-            <div className="w-[100%]">
+            <div className="w-[100%] md:mt-[10%]">
           <img src={tokens} alt="MetaMask" className="w-[100%]" />          
 
             </div>
@@ -97,10 +101,11 @@ const StepTwoBuyAESH = () => {
   };
 const BuyAESHSteps = () => {
   return (
-    <section className="bg-black text-white py-12 px-4 md:px-16">
-      <div className="max-w-5xl mx-auto">
+    <section className="bg-black text-white pb-10 px-4 md:px-16">
+      {/* <div className="absolute w-full h-full bg-black z-2"></div> */}
+      <div className="max-w-5xl mx-auto relative">
         <div className="flex justify-center py-16">
-            <h1 className="text-red-900 font-bold font-philosopher relative">HOW TO BUY AETHER SWIFT TOKEN</h1>
+            <h1 className="text-red-700 font-bold font-philosopher relative">HOW TO BUY AETHER SWIFT TOKEN</h1>
         </div>
 
         {/* Step 1 */}

@@ -6,7 +6,7 @@ const HomeDiscover = () => {
   return (
     <section
     id="about-us"
-      className="bg-black text-white flex flex-col pt-[10%] relative overflow-hidden bg-cover bg-center"
+      className="bg-black text-white flex flex-col pt-8 relative overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: `url(${bg_Second})` }}
     >
       {/* Background gradient overlay */}
@@ -20,7 +20,7 @@ const HomeDiscover = () => {
           Trading Meets Gaming
         </h1>
 
-        <p className="absolute z-12 mt-6 text-sm sm:text-2xl  text-white px-4 sm:px-0 sm:pl-[8%] sm:pr-[15%] py-7">
+        <p className="absolute z-12 mt-6 text-sm sm:text-2xl  text-white px-4 sm:px-0 sm:pl-[8%] sm:pr-[15%] py-3">
           AetherSWIFT (AESH) is a decentralized ecosystem blending
           high-performance Forex trading with immersive blockchain gaming.
         </p>
@@ -28,7 +28,7 @@ const HomeDiscover = () => {
 
       {/* About Us Section */}
       <div className="relative flex flex-col sm:flex-row z-10 px-[5%] w-full">
-        <div className="w-full sm:w-[60%] space-y-7 pt-[40%] md:pt-[18%] pb-[5%] text-center sm:text-left">
+        <div className="w-full sm:w-[60%] space-y-7 pt-[40%] md:pt-[15%] pb-[2%] text-center sm:text-left">
           <h2 className="text-3xl md:text-5xl font-semibold mb-4 text-gray-100 font-philosopher opacity-70">
             About Us
           </h2>
@@ -42,13 +42,13 @@ const HomeDiscover = () => {
         </div>
 
         {/* Dice Image */}
-        <div className="relative  pt-[18%]  pb-[5%] w-full sm:w-1/2 flex justify-center sm:justify-start ">
+        <div className="relative  pt-[15%]  pb-[2%] w-full sm:w-1/2 flex justify-center sm:justify-start ">
           <div className="relative w-[70%] pr-0 sm:pr-10 mx-auto">
             <div className="absolute inset-0 bg-gradient-to-br from-red-700 to-black opacity-30 z-[-1] blur-xl rounded-full" />
             <img
               src={dice}
               alt="Dice graphic"
-              className="w-full rounded-4xl"
+              className="w-[300px] rounded-4xl"
               data-aos="zoom-in"
               data-aos-delay="50"
               data-aos-duration="1000"
