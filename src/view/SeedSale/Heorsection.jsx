@@ -8,6 +8,7 @@ import sidepatti from "../../assets/sidepatti.png";
 import tether from "../../assets/tether.png";
 import coin from "../../assets/coin.png";
 import FEGT from "../../assets/FEGT.mp4";
+import logo_of_sidediv from "../../assets/logo_of_sidediv.png";
  
 function TokenInput() {
   return (
@@ -22,7 +23,7 @@ function TokenInput() {
         <input
           type="text"
           placeholder="Enter Amount"
-          className="bg-transparent placeholder-gray-400 text-white outline-none w-full"
+          className="bg-transparent placeholder-white text-white outline-none w-full"
         />
       </div>
 
@@ -52,7 +53,7 @@ function TokenInput2() {
         <input
           type="text"
           placeholder="Enter Amount"
-          className="bg-transparent placeholder-gray-400 text-white outline-none w-full"
+          className="bg-transparent placeholder-white text-white outline-none w-full"
         />
       </div>
     </div>
@@ -95,12 +96,12 @@ export default function Herosection() {
                 Powering the Future of Decentralized Velocity
               </span>
             </h2>
-            <p className="text-gray-300 text-lg">
+            <p className="text-gray-300 text-sm md:text-lg">
               Join the AetherSwift (AESH) Seed Sale for early access, exclusive
               benefits, and the opportunity to help shape the future of
               high-speed decentralized infrastructure.
             </p>
-            <p className="text-gray-300 text-lg">
+            <p className="text-gray-300 text-sm md:text-lg">
               Secure your spot now and become part of a cutting-edge movement
               driving the next generation of ultra-fast, scalable blockchain
               innovation.
@@ -113,17 +114,20 @@ export default function Herosection() {
           </div>
 
           {/* Right Side */}
-          <div className="w-full md:w-1/2 border border-brand rounded-lg py-4 px-2 shadow-xl">
+          <div className="w-full md:w-1/2 border-2  border-brand rounded-3xl py-4 px-2 shadow-xl">
             <h3 className="text-2xl md:text-5xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
               AETHER SWIFT TOKEN
             </h3>
-            <p className="text-sm text-center py-5 text-white mb-2">
+            {/* <p className="text-sm text-center py-5 text-white mb-2">
               Join the AetherSWIFT (AESH) Token presale and experience the
               future of lightning-fast decentralized transactions. Secure your
               tokens now to access exclusive early access perks and take your
               crypto journey to the next level!
-            </p>
-            <div className="flex justify-center">
+            </p> */}
+            <div className="flex justify-center pt-5 pb-2">
+              <img src={logo_of_sidediv} alt="alt" className="w-[60%]"/>
+            </div>
+            <div className="flex justify-center py-10">
               <button className="border border-gray-300 w-[80%] md:w-[40%] text-md md:2xl  bg-brand text-white  rounded-md font-bold mb-4 font-philosopher">
                 Connect Wallet
               </button>

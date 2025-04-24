@@ -11,12 +11,20 @@ import { TbBrandTelegram } from "react-icons/tb";
 import { SiBinance, SiTether, SiCoinbase } from "react-icons/si";
 
 import bgvideo from "../../assets/bgvideo.mp4";
-
 import Herocard_over from "../../assets/herocard_over.png";
 import Herocard from "../../assets/herocard.png";
 import bitmax from "../../assets/bitmax_icon.png";
+
 import Header from "./Header";
 import { Link } from "react-router-dom";
+
+// import partners icon
+import coinmarktetcap from "../../assets/partner/coinmarketcap.webp";
+import bscscan from "../../assets/partner/bscscan.webp";
+import coinstore from "../../assets/partner/coinstore.webp";
+import metamask from "../../assets/partner/metamask.webp";
+import trustwallet from "../../assets/partner/trustwallet.webp";
+import pancackcap from "../../assets/partner/pancackcap.webp";
 
 export default function Herosection() {
   return (
@@ -63,20 +71,27 @@ export default function Herosection() {
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
                   <button className="relative bottom-1 w-full h-full ml-1 px-9 md:px-12 py-2 rounded-lg text-second font-philosopher font-bold text-sm md:text-2xl bg-brand border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-                  <Link to="presale " className='no-underline text-white hover:text-white'>
-          Buy Now        
-        </Link>
+                    <Link
+                      to="presale "
+                      className="no-underline text-white hover:text-white"
+                    >
+                      Buy Now
+                    </Link>
                   </button>
                 </div>
               </div>
 
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
-                <Link to="https://aethers-swift.gitbook.io/aether-swift/" target="_blank" className="text-black hover:text-black">
-                  <button className="relative bottom-1 w-full h-full ml-1 px-6 md:px-8 py-2 rounded-lg   font-philosopher font-bold  text-sm md:text-2xl  bg-white text-black border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-                  WHITEPAPER
-                  </button>
-                  </Link> 
+                  <Link
+                    to="https://aethers-swift.gitbook.io/aether-swift/"
+                    target="_blank"
+                    className="text-black hover:text-black"
+                  >
+                    <button className="relative bottom-1 w-full h-full ml-1 px-6 md:px-8 py-2 rounded-lg   font-philosopher font-bold  text-sm md:text-2xl  bg-white text-black border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
+                      WHITEPAPER
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -104,7 +119,7 @@ export default function Herosection() {
         </div>
 
         {/* Partners Bar */}
-        <div className="relative z-10 overflow-hidden bg-gradient-to-r from-black to-[#fcfeff] py-8 text-gray-900 font-medium">
+        {/* <div className="relative z-10 overflow-hidden bg-gradient-to-r from-black to-[#fcfeff] py-8 text-gray-900 font-medium">
           <div className="animate-marquee whitespace-nowrap flex space-x-16 items-center px-4">
             <div className="flex items-center space-x-4 text-xl sm:text-2xl">
               <SiBinance className="w-7 h-7 md:w-12 md:h-12" />{" "}
@@ -131,6 +146,26 @@ export default function Herosection() {
                 <span className="font-normal">Bit</span>Max
               </p>
             </div>
+          </div>
+        </div> */}
+
+        <div className="relative z-10 overflow-hidden bg-gradient-to-r from-black to-[#fcfeff] py-8 text-gray-900 font-medium">
+          <div className="animate-marquee whitespace-nowrap flex space-x-16 items-center px-4">
+            <img
+              src={coinmarktetcap}
+              alt="coinmarktetcap"
+              className="h-10 md:h-10"
+            />
+            <img src={pancackcap} alt="pancackcap" className="h-10 md:h-10" />
+            <img
+              src={trustwallet}
+              alt="trustwallet"
+              className="h-10 md:h-10 pr-10"
+            />
+            <img src={metamask} alt="metamask" className="h-10 md:h-10" />
+            <img src={bscscan} alt="bscscan" className="h-10 md:h-10" />
+            <img src={coinstore} alt="coinstore" className="h-10 md:h-10" />
+
           </div>
         </div>
       </div>

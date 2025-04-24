@@ -65,6 +65,10 @@ const HomeDiscover = () => {
         loop
         muted
         playsInline
+
+        data-aos="zoom-in"
+        data-aos-delay="50"
+        data-aos-duration="1000"
       >
         <source src={GettyImages_988641054} type="video/mp4" />
         Your browser does not support the video tag.
