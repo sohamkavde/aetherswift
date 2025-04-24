@@ -42,7 +42,7 @@ function Header() {
         {/* Buy Now Desktop Button */}
         <div className="hidden md:block">
           <div className="bg-black border border-gray-300 rounded-md">
-            <Link to="/seed-sale" className="no-underline text-white hover:text-white">
+            <Link to="/presale" className="no-underline text-white hover:text-white">
               <button className="relative bottom-1 px-10 py-2 rounded-lg text-gray-200 font-philosopher font-semibold text-sm md:text-2xl bg-gradient-to-r from-[#600000] to-[#990000] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform">
                 Buy Now
               </button>
@@ -72,7 +72,7 @@ function Header() {
         </ul>
         <div className="px-6 mt-10">
           <div className="bg-black border border-gray-300 rounded-md">
-            <Link to="/seed-sale" className="no-underline text-white hover:text-white">
+            <Link to="/presale" className="no-underline text-white hover:text-white">
               <button className="relative bottom-1 w-full px-10 py-2 rounded-lg text-gray-200 font-philosopher font-semibold text-sm md:text-2xl bg-gradient-to-r from-[#600000] to-[#990000] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform">
                 Buy Now
               </button>

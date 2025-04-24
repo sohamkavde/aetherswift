@@ -1,11 +1,12 @@
 import React from "react";
 import bg_Second from "../../assets/bg_second.png";
 import dice from "../../assets/dice.png";
+import GettyImages_988641054 from "../../assets/GettyImages-988641054.mp4";
 
 const HomeDiscover = () => {
   return (
     <section
-    id="about-us"
+      id="about-us"
       className="bg-black text-white flex flex-col pt-8 relative overflow-hidden bg-cover bg-center"
       style={{ backgroundImage: `url(${bg_Second})` }}
     >
@@ -42,19 +43,36 @@ const HomeDiscover = () => {
         </div>
 
         {/* Dice Image */}
-        <div className="relative  pt-[15%]  pb-[2%] w-full sm:w-1/2 flex justify-center sm:justify-start ">
-          <div className="relative w-[70%] pr-0 sm:pr-10 mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-br from-red-700 to-black opacity-30 z-[-1] blur-xl rounded-full" />
-            <img
-              src={dice}
-              alt="Dice graphic"
-              className="w-[300px] rounded-4xl"
-              data-aos="zoom-in"
-              data-aos-delay="50"
-              data-aos-duration="1000"
-            />
-          </div>
-        </div>
+        <div className="relative pt-[15%] pb-[2%] w-full sm:w-1/2 flex justify-center sm:justify-start">
+  <div className="relative w-full pr-0 sm:pr-10 mx-auto">
+
+    {/* Black Blur Background */}
+    {/* <div className="absolute  bg-red  z-[0] blur-xl rounded-full" /> */}
+
+    {/* Existing Red Gradient Blur */}
+    <div className="absolute inset-0 bg-black blur-md opacity-80 z-[-1]  w-full h-full" />
+
+    <div
+      className="relative w-full h-[300px] overflow-hidden flex justify-center"
+      style={{
+        clipPath:
+          "polygon(0% 0%, 0% 12%, 6% 12%, 6% 31%, 0 31%, 0% 100%, 49% 100%, 49% 91%, 84% 90%, 84% 100%, 100% 99%, 100% 13%, 92% 13%, 92% 0)",
+      }}
+    >
+      <video
+        className="absolute top-0 left-0 w-full h-full object-cover z-[0]"
+        autoPlay
+        loop
+        muted
+        playsInline
+      >
+        <source src={GettyImages_988641054} type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+</div>
+
       </div>
     </section>
   );

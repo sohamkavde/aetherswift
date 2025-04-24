@@ -63,7 +63,7 @@ export default function Herosection() {
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
                   <button className="relative bottom-1 w-full h-full ml-1 px-9 md:px-12 py-2 rounded-lg text-gray-300 font-philosopher font-bold text-sm md:text-2xl bg-gradient-to-r from-[#531a1a] to-[#990000f4] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-                  <Link to="seed-sale " className='no-underline text-white hover:text-white'>
+                  <Link to="presale " className='no-underline text-white hover:text-white'>
           Buy Now        
         </Link>
                   </button>
@@ -72,9 +72,11 @@ export default function Herosection() {
 
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
+                <Link to="https://aethers-swift.gitbook.io/aether-swift/" target="_blank" className="text-black hover:text-black">
                   <button className="relative bottom-1 w-full h-full ml-1 px-6 md:px-8 py-2 rounded-lg   font-philosopher font-bold  text-sm md:text-2xl  bg-gray-300 text-black border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
-                    WHITEPAPER
+                  WHITEPAPER
                   </button>
+                  </Link> 
                 </div>
               </div>
             </div>

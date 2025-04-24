@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomeIndex />} />
-        <Route path="/seed-sale" element={<Seedsaleindex />} />
+        <Route path="/presale" element={<Seedsaleindex />} />
       </Routes>
     </Router>
   );

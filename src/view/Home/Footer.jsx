@@ -71,9 +71,11 @@ const Footer = () => {
             <div className="flex flex-col">
               <h3 className="text-red-700 underline font-semibold">Resources</h3>
               <ul className="text-md">
-                <li className="cursor-pointer hover:underline">Whitepaper</li>
                 <li className="cursor-pointer hover:underline">
-                  <Link to="/seed-sale" className="font-normal text-white hover:text-white">
+                  <Link to="https://aethers-swift.gitbook.io/aether-swift/" className="font-normal text-white hover:text-white" target="_blank">Whitepaper</Link> 
+                </li>
+                <li className="cursor-pointer hover:underline">
+                  <Link to="/presale" className="font-normal text-white hover:text-white">
                     Buy Now
                   </Link>
                 </li>

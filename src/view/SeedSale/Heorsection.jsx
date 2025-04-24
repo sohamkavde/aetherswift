@@ -7,9 +7,8 @@ import bgImage from "../../assets/patti.png";
 import sidepatti from "../../assets/sidepatti.png";
 import tether from "../../assets/tether.png";
 import coin from "../../assets/coin.png";
-// import { FaTenge } from "react-icons/fa"; // Substitute with USDT logo if you have it as a component/image
-// import { cn } from "@/lib/utils"; // Optional: Tailwind class merger if you're using it
-
+import FEGT from "../../assets/FEGT.mp4";
+ 
 function TokenInput() {
   return (
     <div className="flex items-center justify-between border border-red-700 rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
@@ -64,6 +63,16 @@ export default function Herosection() {
   return (
     <>
       <div className="relative bg-black text-white px-4 md:px-2 py-8 font-sans">
+         <video
+                  className="absolute top-0 left-0 w-full h-full object-cover z-[0]"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                >
+                  <source src={FEGT} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
         <div
           className="absolute z-0 bg-cover bg-no-repeat w-[400px]  h-[400px] top-[90%] left-0 opacity-10"
           style={{ backgroundImage: `url(${bgImage})` }}
@@ -76,7 +85,7 @@ export default function Herosection() {
         <div className="mb-10">
           <Header />
         </div>
-        <div className="flex flex-col md:flex-row justify-between space-y-10 md:space-y-0 md:space-x-10 md:px-10">
+        <div className="relative flex flex-col md:flex-row justify-between space-y-10 md:space-y-0 md:space-x-10 md:px-10">
           {/* Left Side */}
           <div className="md:w-1/2 space-y-8 pt-[10%]">
             <h2 className="text-3xl md:text-5xl font-bold leading-normal font-philosopher opacity-85">
@@ -104,7 +113,7 @@ export default function Herosection() {
           </div>
 
           {/* Right Side */}
-          <div className="w-full md:w-1/2 bg-[#0c0c0c] border border-red-900 rounded-lg py-4 px-2 shadow-xl">
+          <div className="w-full md:w-1/2 border border-red-900 rounded-lg py-4 px-2 shadow-xl">
             <h3 className="text-2xl md:text-5xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
               AETHER SWIFT TOKEN
             </h3>
