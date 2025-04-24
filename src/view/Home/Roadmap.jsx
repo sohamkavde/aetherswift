@@ -55,7 +55,7 @@ export default function Roadmap() {
     id="Roadmap"
     className="bg-black text-white px-2 pt-6 md:px-2">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-6xl text-gray-300 font-bold py-16 font-philosopher">
+        <h2 className="text-6xl text-second font-bold py-16 font-philosopher">
           Roadmap
         </h2>
         <p className="text-xl md:text-2xl mb-12  w-[80%] mx-auto">
@@ -76,7 +76,7 @@ export default function Roadmap() {
             >
               <div className="flex items-center gap-4">
                 <div className="w-[30%]">{phases[0].icon}</div>
-                <h3 className="text-xl md:text-4xl  w-[70%] pr-2 font-semibold text-gray-300">{phases[0].title}</h3>
+                <h3 className="text-xl md:text-4xl  w-[70%] pr-2 font-semibold text-second">{phases[0].title}</h3>
               </div>
               <ul className="list-disc list-inside text-md pl-[2%] md:pl-[10%] pt-[2%] text-white space-y-1">
                 {phases[0].points.map((point, i) => (
@@ -99,7 +99,7 @@ export default function Roadmap() {
             >
               <div className="flex items-center ">
                 <div className="w-[30%]">{phases[1].icon}</div>
-                <h3 className="text-xl md:text-4xl  w-[70%] font-semibold text-gray-300">{phases[1].title}</h3>
+                <h3 className="text-xl md:text-4xl  w-[70%] font-semibold text-second">{phases[1].title}</h3>
               </div>
               <ul className="list-disc list-inside text-md pl-[2%] md:pl-[10%] pt-[2%] text-white space-y-1">
                 {phases[1].points.map((point, i) => (
@@ -120,7 +120,7 @@ export default function Roadmap() {
             >
               <div className="flex items-center ">
                 <div className="w-[30%]">{phases[2].icon}</div>
-                <h3 className="text-xl md:text-4xl  w-[70%] font-semibold text-gray-300">{phases[2].title}</h3>
+                <h3 className="text-xl md:text-4xl  w-[70%] font-semibold text-second">{phases[2].title}</h3>
               </div>
               <ul className="list-disc list-inside text-md pl-[2%] md:pl-[10%] pt-[2%] text-white space-y-1">
                 {phases[2].points.map((point, i) => (
@@ -143,7 +143,7 @@ export default function Roadmap() {
             >
               <div className="flex items-center justify-center">
                 <div className="w-[30%]">{phases[3].icon}</div>
-                <h3 className="text-lg md:text-3xl w-[70%] font-semibold text-gray-300">{phases[3].title}</h3>
+                <h3 className="text-lg md:text-3xl w-[70%] font-semibold text-second">{phases[3].title}</h3>
               </div>
               <ul className="list-disc list-inside text-md pl-[2%] md:pl-[10%] pt-[2%] text-white space-y-1">
                 {phases[3].points.map((point, i) => (

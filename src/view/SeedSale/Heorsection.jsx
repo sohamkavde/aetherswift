@@ -11,7 +11,7 @@ import FEGT from "../../assets/FEGT.mp4";
  
 function TokenInput() {
   return (
-    <div className="flex items-center justify-between border border-red-700 rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
+    <div className="flex items-center justify-between border border-brand rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
       {/* Left Icon and Input */}
       <div className="flex items-center space-x-2 w-full">
         <img
@@ -27,7 +27,7 @@ function TokenInput() {
       </div>
 
       {/* USDT Badge */}
-      <div className="flex items-center bg-red-900 text-white px-3 pr-5 py-1 rounded-full space-x-1">
+      <div className="flex items-center bg-brand text-white px-3 pr-5 py-1 rounded-full space-x-1">
         <img
           src={tether}
           alt="USDT"
@@ -41,7 +41,7 @@ function TokenInput() {
 
 function TokenInput2() {
   return (
-    <div className="flex items-center justify-between border border-red-700 rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
+    <div className="flex items-center justify-between border border-brand rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
       {/* Left Icon and Input */}
       <div className="flex items-center space-x-2 w-full">
         <img
@@ -88,14 +88,14 @@ export default function Herosection() {
         <div className="relative flex flex-col md:flex-row justify-between space-y-10 md:space-y-0 md:space-x-10 md:px-10">
           {/* Left Side */}
           <div className="md:w-1/2 space-y-8 pt-[10%]">
-            <h2 className="text-3xl md:text-5xl font-bold leading-normal font-philosopher opacity-85">
-              <span className="text-red-800">AetherSwift (AESH)</span> <br />
-              <span className="text-red-800">Seed Sale:</span>{" "}
-              <span className="text-gray-50 opacity-90">
+            <h2 className="text-3xl md:text-5xl font-bold leading-normal font-philosopher">
+              <span className="text-brand">AetherSwift (AESH)</span> <br />
+              <span className="text-brand">Seed Sale:</span>{" "}
+              <span className="text-second">
                 Powering the Future of Decentralized Velocity
               </span>
             </h2>
-            <p className="text-gray-100 text-lg">
+            <p className="text-gray-300 text-lg">
               Join the AetherSwift (AESH) Seed Sale for early access, exclusive
               benefits, and the opportunity to help shape the future of
               high-speed decentralized infrastructure.
@@ -113,28 +113,28 @@ export default function Herosection() {
           </div>
 
           {/* Right Side */}
-          <div className="w-full md:w-1/2 border border-red-900 rounded-lg py-4 px-2 shadow-xl">
+          <div className="w-full md:w-1/2 border border-brand rounded-lg py-4 px-2 shadow-xl">
             <h3 className="text-2xl md:text-5xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
               AETHER SWIFT TOKEN
             </h3>
-            <p className="text-sm text-center py-5 text-gray-300 mb-2">
+            <p className="text-sm text-center py-5 text-white mb-2">
               Join the AetherSWIFT (AESH) Token presale and experience the
               future of lightning-fast decentralized transactions. Secure your
               tokens now to access exclusive early access perks and take your
               crypto journey to the next level!
             </p>
             <div className="flex justify-center">
-              <button className="border border-gray-300 w-[80%] md:w-[40%] text-md md:2xl  bg-gradient-to-r from-[#600000] to-[#990000]  text-white  rounded-md font-bold mb-4 font-philosopher">
+              <button className="border border-gray-300 w-[80%] md:w-[40%] text-md md:2xl  bg-brand text-white  rounded-md font-bold mb-4 font-philosopher">
                 Connect Wallet
               </button>
             </div>
 
             {/* Price Indicator */}
-            <div className="flex items-center justify-center space-x-3 text-sm text-gray-300 mb-4 border-t border-b py-4 border-red-950">
+            <div className="flex items-center justify-center space-x-3 text-sm text-second mb-4 border-t border-b py-4 border-brand">
               <span>
                 Current price: <span className="text-white">$0.001</span>
               </span>
-              <FaArrowRight className="text-gray-400" />
+              <FaArrowRight className="text-second" />
               <span>
                 Current price: <span className="text-white">$0.002</span>
               </span>
@@ -142,7 +142,7 @@ export default function Herosection() {
 
             {/* USDT Icon */}
             <div className="flex justify-center mb-4">
-              <button className="flex items-center space-x-2 bg-gradient-to-r from-[#600000] to-[#990000]  hover:bg-red-700 px-8 py-2 rounded-full text-white text-sm font-philosopher border border-gray-300">
+              <button className="flex items-center space-x-2 bg-brand  hover:bg-red-700 px-8 py-2 rounded-full text-white text-sm font-philosopher border border-gray-300">
                 <img
                   src={tether}
                   alt="tether"
@@ -155,7 +155,7 @@ export default function Herosection() {
             {/* Input Fields */}
             <div className="space-y-4 mb-6 px-0 md:px-12">
               <div>
-                <label className="block text-gray-300 mb-1">
+                <label className="block text-second mb-1">
                   You can Buy with
                 </label>
                 <div className="flex items-center pt-2">
@@ -169,7 +169,7 @@ export default function Herosection() {
               </div>
 
               <div>
-                <label className="block text-gray-300 mb-1">You will get</label>
+                <label className="block text-second mb-1">You will get</label>
                 <div className="flex items-cente pt-2">
                   <TokenInput2 />
                 </div>
@@ -178,7 +178,7 @@ export default function Herosection() {
 
             {/* Approve Button */}
             <div className="px-0 md:px-12 flex justify-center">
-              <button className="w-full md:w-[50%] border border-gray-300 font-philosopher bg-gradient-to-r from-[#600000] to-[#990000] hover:bg-red-800 text-white py-2 rounded-md font-bold">
+              <button className="w-full md:w-[50%] border border-gray-300 font-philosopher bg-brand hover:bg-red-800 text-white py-2 rounded-md font-bold">
                 Approve
               </button>
             </div>

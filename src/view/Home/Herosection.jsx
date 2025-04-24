@@ -25,7 +25,7 @@ export default function Herosection() {
         id="Home"
         className="relative bg-black text-white font-sans pt-6 bg-cover"
       >
-        <div className="absolute left-0 top-0 bottom-0 w-full bg-cover bg-center md:bg-[#000] opacity-20 z-[-2]"></div>
+        {/* <div className="absolute left-0 top-0 bottom-0 w-full bg-cover bg-center md:bg-[#000] opacity-20 z-[-2]"></div> */}
         <video
           className="absolute top-0 left-0 w-full h-full object-cover z-[0]"
           autoPlay
@@ -44,25 +44,25 @@ export default function Herosection() {
         {/* Hero Section */}
         <div className="relative z-10 flex flex-col md:flex-row justify-between px-8 pt-4 pb-0 md:pt-10">
           <div className="max-w-xl relative z-2">
-            <h1 className="text-4xl md:text-6xl font-semibold font-philosopher text-gray-400 leading-tight">
-              Play the Future <span className="text-gray-300">with</span>{" "}
-              <span className="text-red-800 font-bold">AETHERSWIFT</span>
+            <h1 className="text-4xl md:text-6xl font-semibold font-philosopher text-second leading-tight">
+              Play the Future <span className="text-second">with</span>{" "}
+              <span className="text-brand font-bold">AETHERSWIFT</span>
             </h1>
-            <p className="text-2xl font-semibold text-gray-300 mt-3 mb-16">
+            <p className="text-2xl font-semibold text-second mt-3 mb-16">
               Your Gateway to Decentralized{" "}
-              <span className="text-red-800">Casino Gaming</span>!
+              <span className="text-brand">Casino Gaming</span>!
             </p>
             <p className="text-lg text-medium text-gray-200 mb-10">
               Experience blockchain-powered casino games, earn rewards, stake
               tokens, and boost gameplay with{" "}
-              <span className="text-red-800 font-semibold">AESH</span>
+              <span className="text-brand font-semibold">AESH</span>
             </p>
 
             {/* Buttons */}
             <div className="flex space-x-6 mb-6">
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
-                  <button className="relative bottom-1 w-full h-full ml-1 px-9 md:px-12 py-2 rounded-lg text-gray-300 font-philosopher font-bold text-sm md:text-2xl bg-gradient-to-r from-[#531a1a] to-[#990000f4] border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
+                  <button className="relative bottom-1 w-full h-full ml-1 px-9 md:px-12 py-2 rounded-lg text-second font-philosopher font-bold text-sm md:text-2xl bg-brand border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
                   <Link to="presale " className='no-underline text-white hover:text-white'>
           Buy Now        
         </Link>
@@ -73,7 +73,7 @@ export default function Herosection() {
               <div className="">
                 <div className="bg-black border border-gray-300  rounded-md">
                 <Link to="https://aethers-swift.gitbook.io/aether-swift/" target="_blank" className="text-black hover:text-black">
-                  <button className="relative bottom-1 w-full h-full ml-1 px-6 md:px-8 py-2 rounded-lg   font-philosopher font-bold  text-sm md:text-2xl  bg-gray-300 text-black border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
+                  <button className="relative bottom-1 w-full h-full ml-1 px-6 md:px-8 py-2 rounded-lg   font-philosopher font-bold  text-sm md:text-2xl  bg-white text-black border border-gray-300 shadow-[4px_4px_0px_#00000088] hover:scale-105 transition-transform duration-200">
                   WHITEPAPER
                   </button>
                   </Link> 
@@ -82,7 +82,7 @@ export default function Herosection() {
             </div>
 
             {/* Social Icons */}
-            <div className="flex space-x-4 text-2xl text-gray-300 mt-10 ml-5 mb-5">
+            <div className="flex space-x-4 text-2xl text-second mt-10 ml-5 mb-5">
               <FaFacebookF className="hover:text-red-500" />
               <FaYoutube className="hover:text-red-500" />
               <FaXTwitter className="hover:text-red-500" />

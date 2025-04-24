@@ -16,9 +16,9 @@ const StepOneWalletSetup = () => {
         
         {/* Left Side - Text */}
         <div className="space-y-5">
-          <h3 className="text-red-800 font-bold text-xl mb-2 underline">STEP 1</h3>
+          <h3 className="text-brand font-bold text-xl mb-2 underline">STEP 1</h3>
           <h2 className="text-2xl font-bold text-white mb-4">Set Up Your Wallet</h2>
-          <ul className="list-disc list-inside text-gray-300 space-y-3">
+          <ul className="list-disc list-inside text-second space-y-3">
             <li>
               To get started, ensure you have a MetaMask wallet installed on your browser, or use one of the wallets supported by Wallet Connect.
               <span className="text-white">(We recommend Trust Wallet or Safe Pal Wallet)</span>
@@ -56,9 +56,9 @@ const StepTwoBuyAESH = () => {
   
           {/* Right Side - Text */}
           <div>
-            <h3 className="text-red-800 font-bold text-xl mb-2 underline">STEP 2</h3>
+            <h3 className="text-brand font-bold text-xl mb-2 underline">STEP 2</h3>
             <h2 className="text-2xl font-bold text-white mb-4">Buy AESH with USDT</h2>
-            <ul className="list-disc list-inside text-gray-300 space-y-3">
+            <ul className="list-disc list-inside text-second space-y-3">
               <li>Click the "Connect Wallet" button to link your wallet.</li>
               <li>Enter the amount of USDT you'd like to use and click "Approve" to authorize the transaction.</li>
               <li>Once approved, click "Buy" to complete your AESH token purchase.</li>
@@ -78,9 +78,9 @@ const StepTwoBuyAESH = () => {
           
           {/* Left Side - Text */}
           <div>
-            <h3 className="text-red-800 font-bold text-xl mb-2 underline">STEP 3</h3>
+            <h3 className="text-brand font-bold text-xl mb-2 underline">STEP 3</h3>
             <h2 className="text-2xl font-bold text-white mb-4">Receive Your AESH Tokens</h2>
-            <ul className="list-disc list-inside text-gray-300 space-y-3">
+            <ul className="list-disc list-inside text-second space-y-3">
               <li>Your AESH tokens will be credited directly to your connected wallet after the transaction is confirmed.</li>
               <li>We recommend holding onto your tokens to fully benefit from the future growth and opportunities within the AESH Protocol ecosystem.</li>
             </ul>
@@ -105,7 +105,7 @@ const BuyAESHSteps = () => {
       {/* <div className="absolute w-full h-full bg-black z-2"></div> */}
       <div className="max-w-5xl mx-auto relative">
         <div className="flex justify-center py-16">
-            <h1 className="text-red-700 font-bold font-philosopher relative">HOW TO BUY AETHER SWIFT TOKEN</h1>
+            <h1 className="text-brand font-bold font-philosopher relative">HOW TO BUY AETHER SWIFT TOKEN</h1>
         </div>
 
         {/* Step 1 */}

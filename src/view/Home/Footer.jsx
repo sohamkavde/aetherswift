@@ -45,7 +45,7 @@ const Footer = () => {
           {/* Right Column */}
           <div className="flex justify-between text-center col-span-2 gap-4 pr-[10%]">
             <div className="flex items-center flex-col">
-              <h3 className="text-red-700 underline font-semibold mb-2">Pages</h3>
+              <h3 className="text-brand underline font-semibold mb-2">Pages</h3>
               <ul className="text-md grid place-items-center">
                 <li className="cursor-pointer hover:underline">
                   <span onClick={() => handleHashNav("#Home")} className="text-white font-normal hover:text-red-500">Home</span>
@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col">
-              <h3 className="text-red-700 underline font-semibold">Resources</h3>
+              <h3 className="text-brand underline font-semibold">Resources</h3>
               <ul className="text-md">
                 <li className="cursor-pointer hover:underline">
                   <Link to="https://aethers-swift.gitbook.io/aether-swift/" className="font-normal text-white hover:text-white" target="_blank">Whitepaper</Link> 
@@ -84,11 +84,11 @@ const Footer = () => {
               </ul>
 
               <div className="flex gap-6 justify-center items-center py-[10%] text-xl">
-                <FaFacebookF className="text-red-700 hover:text-white cursor-pointer" />
-                <FaYoutube className="text-red-700 hover:text-white cursor-pointer" />
-                <FaXTwitter className="text-red-700 hover:text-white cursor-pointer" />
-                <FaInstagram className="text-red-700 hover:text-white cursor-pointer" />
-                <FaTelegramPlane className="text-red-700 hover:text-white cursor-pointer" />
+                <FaFacebookF className="text-brand hover:text-white cursor-pointer" />
+                <FaYoutube className="text-brand hover:text-white cursor-pointer" />
+                <FaXTwitter className="text-brand hover:text-white cursor-pointer" />
+                <FaInstagram className="text-brand hover:text-white cursor-pointer" />
+                <FaTelegramPlane className="text-brand hover:text-white cursor-pointer" />
               </div>
 
               <div className="text-[10px] mt-4 pb-10">@2025 All Rights Reserved</div>

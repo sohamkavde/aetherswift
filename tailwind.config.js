@@ -18,11 +18,11 @@ export default {
           '0%': { transform: 'translateX(100%)' },
           '100%': { transform: 'translateX(-100%)' },
         },
-        colors: {
-          brand: '#7E1518', 
-          secondary: '#ffffff',         // Optional: redefining for clarity
-          'white-300': '#f1f1f1',   // Softer white
-        },
+      },
+      colors: {
+        brand: 'rgb(208 39 44)',
+        second: '#ffffff',        // Optional alias for white
+        'white-300': '#f1f1f1',   // Softer white
       },
     },
   },

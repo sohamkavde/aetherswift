@@ -49,14 +49,14 @@ const TokenUtilitySection = () => {
     <section 
     id="Usecases"
     className="bg-black text-white py-16 px-6 text-center w-full">
-      <h2 className="text-3xl md:text-6xl font-philosopher font-semibold mb-2 px-2 md:px-5 opacity-70">
-        How <span className="text-red-600">AetherSWIFT</span> Token Works for You
+      <h2 className="text-3xl md:text-6xl font-philosopher font-semibold mb-2 px-2 md:px-5">
+        How <span className="text-brand">AetherSWIFT</span> Token Works for You
       </h2>
-      <p className="text-white text-sm md:text-2xl mb-12">
+      <p className="text-gray-300 text-sm md:text-2xl mb-12">
         Unleash the full potential of AESH Token applications
       </p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 w-[95%] mx-auto">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 w-[95%] mx-auto">
         {tokenFeatures.map((feature, index) => (
           <div
             key={index}
@@ -67,12 +67,12 @@ const TokenUtilitySection = () => {
           >
             <div className="px-1">
               <div className="flex justify-center mb-4 w-[100%]">
-                <div className="w-[40%] min-h-[125px]">
+                <div className="w-[40%] min-h-[150px]">
                 <img src={feature.icon} alt="image" className="w-[100%]"/>
                 </div>                
              </div>
 
-              <h3 className="text-2xl font-extrabold text-[#7E1518] mb-2 text-center">
+              <h3 className="text-2xl font-extrabold text-brand mb-2 text-center">
                 {feature.title}
               </h3>
              <div  className="flex flex-col items-center">

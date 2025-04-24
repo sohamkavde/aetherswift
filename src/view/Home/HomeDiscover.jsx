@@ -15,13 +15,13 @@ const HomeDiscover = () => {
 
       {/* Content */}
       <div className="relative px-[5%] sm:px-[5%] w-full text-center sm:text-left">
-        <div className="absolute left-0 top-0 bottom-0 w-[100%] bg-cover bg-center md:bg-[#000]  opacity-20  z-10"></div>
+        {/* <div className="absolute left-0 top-0 bottom-0 w-[100%] bg-cover bg-center md:bg-[#000]    z-10"></div> */}
         <h1 className="text-4xl md:text-6xl font-semibold font-philosopher leading-tight">
-          Discover <span className="text-red-700">AetherSWIFT</span> – Where
+          Discover <span className="text-brand">AetherSWIFT</span> – Where
           Trading Meets Gaming
         </h1>
 
-        <p className="absolute z-12 mt-6 text-sm sm:text-2xl  text-white px-4 sm:px-0 sm:pl-[8%] sm:pr-[15%] py-3">
+        <p className="absolute z-12 mt-6 text-sm sm:text-2xl  text-gray-300 px-4 sm:px-0 sm:pl-[8%] sm:pr-[15%] py-3">
           AetherSWIFT (AESH) is a decentralized ecosystem blending
           high-performance Forex trading with immersive blockchain gaming.
         </p>
@@ -30,10 +30,10 @@ const HomeDiscover = () => {
       {/* About Us Section */}
       <div className="relative flex flex-col sm:flex-row z-10 px-[5%] w-full">
         <div className="w-full sm:w-[60%] space-y-7 pt-[40%] md:pt-[15%] pb-[2%] text-center sm:text-left">
-          <h2 className="text-3xl md:text-5xl font-semibold mb-4 text-gray-100 font-philosopher opacity-70">
+          <h2 className="text-3xl md:text-5xl font-semibold mb-4 text-gray-100 font-philosopher ">
             About Us
           </h2>
-          <p className="text-md md:text-2xl  text-white pt-6 sm:px-0">
+          <p className="text-md md:text-2xl  text-gray-300 pt-6 sm:px-0">
             AetherSWIFT (AESH) is a next-generation blockchain project
             redefining the way users engage with trading and gaming platforms.
             Built on principles of transparency, decentralization, and rewarding

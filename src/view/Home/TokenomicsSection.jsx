@@ -25,13 +25,13 @@ const TokenomicsSection = () => {
     className="bg-black text-white px-4 pt-16 md:px-16">
       {/* section 01 - Header */}
       <div className="text-center w-[95%] tracking-wide mx-auto">
-        <h2 className="text-3xl md:text-6xl font-semibold font-philosopher text-gray-300">
+        <h2 className="text-3xl md:text-6xl font-semibold font-philosopher text-second">
           Understanding the Tokenomics of the <br />
-          <span className="text-red-800">AETHER SWIFT</span> Token
+          <span className="text-brand">AETHER SWIFT</span> Token
         </h2>
-        <p className="mt-4 text-gray-100 text-lg md:text-2xl">
+        <p className="mt-4 text-gray-200 text-lg md:text-2xl">
           The AETHER SWIFT Token is likely crafted as the backbone of the AETHER SWIFT ecosystem.
-          The distribution of our <span className="text-[#7E1518] font-bold">50 cr. AESH tokens</span> is designed to reward early investors,
+          The distribution of our <span className="text-brand font-bold">50 cr. AESH tokens</span> is designed to reward early investors,
           support the platform’s development, and fuel community engagement.
         </p>
       </div>
@@ -49,7 +49,7 @@ const TokenomicsSection = () => {
         {tokenDetails.map((item, index) => (
           <div
             key={index}
-            className="border-2 md:border-4 border-red-800 text-center px-8 py-6 rounded-full bg-black text-white flex justify-between items-center col-span-2 md:col-span-1"
+            className="border-2 md:border-4 border-brand text-center px-8 py-6 rounded-full bg-black text-white flex justify-between items-center col-span-2 md:col-span-1"
           >
             <p className="text-xl md:text-2xl">{item.label}</p>
             <p className="text-xl md:text-2xl">{item.value}</p>
@@ -57,7 +57,7 @@ const TokenomicsSection = () => {
         ))}
 
         <div className="col-span-2 flex justify-center mt-2">
-          <div className="border-2 md:border-4 border-red-800 text-center px-8 py-6 rounded-full bg-black text-white flex justify-between items-center w-full md:w-[50%]">
+          <div className="border-2 md:border-4 border-brand text-center px-8 py-6 rounded-full bg-black text-white flex justify-between items-center w-full md:w-[50%]">
             <p className="text-xl md:text-2xl">Network</p>
             <p className="text-xl md:text-2xl">BEP-20</p>
           </div>
