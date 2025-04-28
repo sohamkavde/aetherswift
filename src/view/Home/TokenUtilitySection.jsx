@@ -1,10 +1,10 @@
 import React from "react";
-import forex from "../../assets/forex.png";
-import casino from "../../assets/cashino.png";
-import rewards from "../../assets/rewards.png";
-import marketing from "../../assets/marketing.png";
-import discount from "../../assets/discount.png";
-import exchange from "../../assets/exchange.png";
+import forex from "../../assets/forex.jpg";
+import casino from "../../assets/cashino.jpg";
+import rewards from "../../assets/rewards.jpg";
+import marketing from "../../assets/marketing.jpg";
+import discount from "../../assets/discount.jpg";
+import exchange from "../../assets/exchange.jpg";
 const tokenFeatures = [
   {
     title: "Forex Trading Integration",
@@ -67,9 +67,11 @@ const TokenUtilitySection = () => {
           >
             <div className="px-1">
               <div className="flex justify-center mb-4 w-[100%]">
-                <div className="w-[40%] min-h-[150px]">
-                <img src={feature.icon} alt="image" className="w-[100%]"/>
-                </div>                
+                <div className="min-h-[130px] flex justify-center">
+                  <div className="w-[80%]">
+                  <img src={feature.icon} alt="image" className="w-[100%]"/>
+                  </div>                
+                </div>
              </div>
 
               <h3 className="text-2xl font-extrabold text-brand mb-2 text-center">

@@ -10,6 +10,8 @@ import coin from "../../assets/coin.png";
 import FEGT from "../../assets/FEGT.mp4";
 import logo_of_sidediv from "../../assets/logo_of_sidediv.png";
 
+import "../../assets/css/Herosection.css"; // Import your CSS file here
+
 function TokenInput() {
   return (
     <div className="flex items-center justify-between border border-brand rounded-full px-4 py-2 bg-[#1a1a1a] w-full">
@@ -60,7 +62,7 @@ function TokenInput2() {
   );
 }
 
-export default function Herosection() {
+export default function Herosection1() {
   return (
     <>
       <div className="relative bg-black text-white px-4 md:px-2 py-8 font-sans">
@@ -114,8 +116,12 @@ export default function Herosection() {
           </div>
 
           {/* Right Side */}
-          <div className="w-full md:w-1/2 border-2  min-h-[600px] border-brand rounded-3xl py-4 shadow-xl">
-            <h3 className="text-2xl md:text-5xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
+          <div className="rightofpresale w-full md:w-1/2 border-2  border-brand rounded-3xl py-4 shadow-2xl">
+         {/* making its font small and height thin */}
+          <div className="md:min-h-[600px] space-y-5">
+
+         
+            <h3 className="text-2xl md:text-4xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
               AETHER SWIFT TOKEN
             </h3>
             {/* <p className="text-sm text-center py-5 text-white mb-2">
@@ -124,8 +130,8 @@ export default function Herosection() {
               tokens now to access exclusive early access perks and take your
               crypto journey to the next level!
             </p> */}
-            <div className="flex justify-center pt-5 pb-4">
-              <img src={logo_of_sidediv} alt="alt" className="w-[60%]" />
+            <div className="flex justify-center py-2">
+              <img src={logo_of_sidediv} alt="alt" className="w-[50%]" />
             </div>
             {/* <div className="flex justify-center py-10">
              
@@ -188,6 +194,7 @@ export default function Herosection() {
               </button>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>

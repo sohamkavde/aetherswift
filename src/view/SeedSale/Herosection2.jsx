@@ -60,7 +60,7 @@ function TokenInput2() {
   );
 }
 
-export default function Herosection() {
+export default function Herosection2() {
   return (
     <>
       <div className="relative bg-black text-white px-4 md:px-2 py-8 font-sans">
@@ -114,7 +114,7 @@ export default function Herosection() {
           </div>
 
           {/* Right Side */}
-          <div className="w-full md:w-1/2 border-2  min-h-[600px] border-brand rounded-3xl py-4 shadow-xl">
+          <div className="w-full md:w-1/2 border-2  border-brand rounded-3xl py-4 shadow-xl">
             <h3 className="text-2xl md:text-5xl font-philosopher font-semibold text-center  bg-gradient-to-r from-red-800 via-red-400 to-gray-300 bg-clip-text text-transparent mb-2">
               AETHER SWIFT TOKEN
             </h3>

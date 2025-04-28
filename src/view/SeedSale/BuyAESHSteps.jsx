@@ -109,17 +109,17 @@ const BuyAESHSteps = () => {
         </div>
 
         {/* Step 1 */}
-        <div className="border border-red-800 border-r-0 p-6  rounded-br-none">
+        <div className="border-2 border-red-800 border-r-0 p-6  rounded-br-none">
         <StepOneWalletSetup/>          
         </div>
 
         {/* Step 2 */}
-        <div className="border border-red-800 p-6  border-t-0 border-l-0">
+        <div className="border-2 border-red-800 p-6  border-t-0 border-l-0 border-b-0">
           <StepTwoBuyAESH/>
         </div>
 
         {/* Step 3 */}
-        <div className="border border-red-800 p-6  border-r-0">
+        <div className="border-2 border-red-800 p-6  border-r-0">
             <StepThreeReceiveAESH/>           
         </div>
         

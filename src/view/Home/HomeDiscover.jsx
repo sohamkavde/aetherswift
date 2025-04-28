@@ -60,7 +60,7 @@ const HomeDiscover = () => {
       }}
     >
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover z-[0]"
+        className="absolute top-0 left-0 w-full h-full rounded-md object-cover z-[0]"
         autoPlay
         loop
         muted
